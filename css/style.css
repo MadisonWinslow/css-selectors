@@ -54,10 +54,17 @@ main > section {
     margin-bottom: 3rem;
 }
 
-main > section > h2 ~ p  strong {
+main > section > h2 + p  strong {
     color: purple;
 }
 
-li {
-    color: purple; 
+li:nth-child(even) {
+    color: purple;
 }
+
+dl div:nth-child(2) {
+    background-color: #ccc;
+}
+
+
+
