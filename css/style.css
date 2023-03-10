@@ -12,3 +12,14 @@ p {
     margin: .5em o;
 }
 
+h1 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3 + p {
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
