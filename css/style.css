@@ -49,3 +49,7 @@ header > p {
 #experience {
     border-bottom: 2px dashed #ccc;
 }
+
+main > section {
+    margin-bottom: 3rem;
+}
